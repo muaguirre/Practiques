@@ -13,23 +13,27 @@
         </header>
             <h2 id="formulari">Formulari de Contacte</h2>
                 <div>
-                    <label for=”campNomCognom”>Escriu el teu Nom i Cognoms</label>
-                    <input id=”campNomCognom” type=”text”>
+                    <fomr>
+                        <label for=”campNomCognom”>Escriu el teu Nom i Cognoms</label>
+                        <input id=”campNomCognom” type=”text”>
                     <br>
-                    <label for=”campMail”>Escriu el teu Correo Electronic</label>
-                    <input id=”campMail” type=”email”>
+                        <label for=”campMail”>Escriu el teu Correo Electronic</label>
+                        <input id=”campMail” type=”email”>
                     <br>
-                    <label for=”campInfo”>Informació breu:</label>
-                    <input id=”campInfo” type=”text”>
-                    <br>
-                    <input type="checkbox" id="campCodicions" name="Condicions">
-                    <label for="Condicions">Acepta condicions</label>
-                    <br>
-                    <input type="button" value="Enviar">
+                    <form action="/index.html" method="post">
+                        <label for="info breu">Informació breu:</label>
+                        <br>
+                        <textarea id="info breu" name="text" rows="12" cols="50"></textarea>
+                        <br>
+                        <input type="checkbox" id="campCodicions" name="Condicions">
+                        <label for="Condicions">Acepta condicions</label>
+                        <br>
+                        <input type="submit" value="Aceptar">
+                        <br>
+                    </fomr>
                 </div>
 
-
-
+                
 
     </body>
     <footer>
